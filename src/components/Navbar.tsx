@@ -2,7 +2,7 @@ import { LayoutDashboard, Package, List, History, LogOut } from "lucide-react";
 import { useAuth } from "@/hooks/useAuth";
 import classNames from "classnames";
 import { useAppSelector } from "@/store";
-import { usePathname, useRouter } from "next/navigation";
+import { usePathname } from "next/navigation";
 import Link from "next/link";
 import { Spinner } from "./Loader";
 

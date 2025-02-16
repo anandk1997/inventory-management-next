@@ -1,6 +1,6 @@
 import { useMutation, useQuery } from "@tanstack/react-query";
 import { useDispatch } from "react-redux";
-import { supabase } from "@/lib/supabase";
+import { supabase } from "@/utils/supabase/client";
 import { storeUserData } from "@/store/reducers/sd";
 import bcrypt from "bcryptjs";
 import { useRouter } from "next/navigation";
